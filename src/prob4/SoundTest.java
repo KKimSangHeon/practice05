@@ -10,6 +10,6 @@ public class SoundTest {
 	}
 	
 	private static void printSound( Soundable soundable ) {
-		soundable.sound();
+		System.out.println( soundable.sound() );
 	}
 }
