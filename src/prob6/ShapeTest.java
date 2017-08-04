@@ -15,16 +15,12 @@ public class ShapeTest {
 			System.out.println( "area:" + shape.getArea() );
 			System.out.println( "perimeter:" + shape.getPerimeter() );
 			
-			if( s instanceof Resizable ) {
-				Resizable resizable = (Resizable) s;
+			if( shape instanceof Resizable ) {
+				Resizable resizable = (Resizable) shape;
 				resizable.resize( 0.5 );
-
 				System.out.println( "new area:" + shape.getArea() );
 				System.out.println( "new perimeter:" + shape.getPerimeter() );
-
 			}
 		}
-
 	}
-
 }

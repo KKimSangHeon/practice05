@@ -16,7 +16,6 @@ public class MainApp {
 				// generic을 사용하지 않으면 코드 작성시 타입 체크를 하지 않음
 				// Integer s = (Integer)stack.pop();
 				String s = stack.pop();
-				
 				System.out.println( s );
 			}
 
